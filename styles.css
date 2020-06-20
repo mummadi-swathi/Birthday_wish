@@ -1,0 +1,133 @@
+body {
+font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+width:960px;
+}
+h1, h2, h3 {
+color:brown;
+}
+ul {
+list-style-image: url("images/gift5.png");
+}
+a:link, a:visited {
+text-decoration:none;
+color:brown;
+font-weight:bold;
+}
+a:hover {
+color:black;
+}
+nav ul {
+list-style-type:none;
+padding:0;
+}
+nav li {
+display:inline;
+float:left;
+}
+nav a:link, nav a:visited {
+background-color:brown;
+color:white;
+display:block;
+width:160px;
+text-align:center;
+padding: 10px 0;
+}
+nav a:hover {
+background-color:black;
+}
+aside {
+width:280px;
+float:right;
+background-color: tan;
+text-align:center;
+font-weight:bold;
+padding:20px;
+margin-left:20px;
+}
+.photo-left {
+float:left;
+margin-right:20px;
+}
+.photo-right {
+float:right;
+margin-left:20px;
+}
+header {
+background-image: url("images/gift3.png");
+height:110px;
+margin-bottom:70px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+}
+header h1 {
+color:rgba(256,256,256,.8);
+margin-left:30px;
+margin-top:30px;
+font-size:50px;
+}
+h3 {
+color:rgba(256,256,256,.8);
+font-style: Viner Hand ITC;
+}
+body{
+
+ background-image: url("images\gift1.png") ;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ }
+footer {
+margin: 40px 0;
+}
+footer nav a:link, footer nav a:visited {
+color:gray;
+text-decoration:none;
+display:block
+width:160px;
+text-align:center;
+background-color:white;
+}
+footer nav a:hover {
+color:black;
+}
+td, th {
+border:1px solid black;
+width:20%;
+text-align:center;
+padding:5px;
+}
+table {
+border-collapse:collapse;
+}
+video {
+margin-bottom: 20px;
+margin-left: 160px;
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+div.gallery {
+  margin: 1px;
+  float: left;
+  width: 305px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
